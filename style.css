@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+}
+
+header .menu-toggle {
+  display: none;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+header nav ul li a:hover {
+  background-color: blue;
+  color: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+.kata {
+  width: 80%;
+  margin: 20px auto;
+}
+.hero {
+  background-image: url("img/poster2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.container-product {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+.box {
+  width: 30%;
+  margin: 30px 0 0 0;
+}
+.img img {
+  width: 100%;
+}
+.kalimat {
+  display: flex;
+  width: 100%;
+}
+.kalimat-flex {
+  margin: auto;
+  width: 100%;
+}
+.kalimat-flex button {
+  width: 100%;
+  height: 25px;
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.8s;
+}
+
+.kalimat-flex button:hover {
+  background-color: blue;
+}
+
+.container-empat {
+  width: 80%;
+  /* background-color: #f4e6dc; */
+  background-color: #333333;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 30px auto;
+}
+.judul-trend {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+.judul-trend h2 {
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 45px;
+}
+.content-trend {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box-trend {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  margin: 0 0 0 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  header nav {
+    float: none;
+    text-align: center;
+  }
+
+  header nav ul {
+    padding: 0;
+  }
+
+  header nav.active ul {
+    display: block;
+  }
+
+  header .menu-toggle {
+    display: block;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box-trend {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+}
